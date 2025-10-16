@@ -90,35 +90,65 @@ fun TatatatakRowColumn(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatatakBoxColumnRow(modifier: Modifier = Modifier) {
-    Column() {
-        Row(horizontalArrangement = Arrangement.SpaceEvenly) {
-            Text(text = "Cell_Row1_Komponen1")
-            Text(text = "Cell_Row1_Komponen2")
-            Text(text = "Cell_Row1_Komponen3")
-        }
-        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
-            Text(text = "Cell_Row2_Komponen1")
-            Text(text = "Cell_Row2_Komponen2")
-            Text(text = "Cell_Row2_Komponen3")
-        }
-    }
-    Spacer(modifier = Modifier.height(10.dp))
-    Box(modifier = Modifier
-        .fillMaxWidth()
-        .height(height = 300.dp)
-        .background(color = Color.Cyan),
-        contentAlignment = Alignment.Center) {
+fun TatatetakBoxColumnRow(modifier: Modifier = Modifier) {
+    val gambar = painterResource(id = R.drawable.notasiolsk)
 
-        Image(painter = painterResource(id = R.drawable.notasiolsk),
-            contentDescription = null,
-            contentScale = ContentScale.Fit)
+    Column {
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(110.dp)
+                .background(color = Color.Yellow),
+            contentAlignment = Alignment.Center
+        ) {
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+        }
 
-        Text(text = "My Music",
-            color = Color.Red,
-            fontSize = 50.sp,
-            fontWeight = FontWeight.Bold,
-            fontFamily = FontFamily.Cursive,
-            modifier = Modifier.align(Alignment.Center))
+        Column {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                Text(text = "Coll_Row1_Komponen1")
+                Text(text = "Coll_Row1_Komponen2")
+                Text(text = "Coll_Row1_Komponen3")
+            }
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                Text(text = "Cell_Row2_Komponen1")
+                Text(text = "Cell_Row2_Komponen2")
+                Text(text = "Cell_Row2_Komponen3")
+            }
+        }
+
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Box(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(300.dp)
+                .background(color = Color.Cyan),
+            contentAlignment = Alignment.Center
+        ) {
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                contentScale = ContentScale.Fit
+            )
+            Text(
+                text = "My Music",
+                color = Color.Red,
+                fontSize = 50.sp,
+                fontWeight = FontWeight.Bold,
+                fontFamily = FontFamily.Cursive,
+                modifier = Modifier.align(Alignment.Center)
+            )
+        }
     }
 }
