@@ -104,4 +104,21 @@ fun TatatatakBoxColumnRow(modifier: Modifier = Modifier) {
         }
     }
     Spacer(modifier = Modifier.height(10.dp))
+    Box(modifier = Modifier
+        .fillMaxWidth()
+        .height(height = 300.dp)
+        .background(color = Color.Cyan),
+        contentAlignment = Alignment.Center) {
+
+        Image(painter = painterResource(id = R.drawable.notasiolsk),
+            contentDescription = null,
+            contentScale = ContentScale.Fit)
+
+        Text(text = "My Music",
+            color = Color.Red,
+            fontSize = 50.sp,
+            fontWeight = FontWeight.Bold,
+            fontFamily = FontFamily.Cursive,
+            modifier = Modifier.align(Alignment.Center))
+    }
 }
