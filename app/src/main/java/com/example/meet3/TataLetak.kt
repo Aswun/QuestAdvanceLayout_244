@@ -70,3 +70,15 @@ fun TatatatakColumnRow(modifier: Modifier = Modifier) {
         }
     }
 }
+
+@Composable
+fun TatatatakRowColumn(modifier: Modifier = Modifier) {
+    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
+        //Baris1
+        Column() {
+            Text(text = "Komponen1Baris1")
+            Text(text = "Komponen2Baris1")
+            Text(text = "Komponen3Baris1")
+        }
+    }
+}
