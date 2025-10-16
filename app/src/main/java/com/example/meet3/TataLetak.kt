@@ -1,4 +1,4 @@
-package com.example.mylayout
+package com.example.meet3
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
