@@ -42,3 +42,13 @@ fun TatatatakRow(modifier: Modifier = Modifier) {
         Text(text = "Komponen4")
     }
 }
+
+@Composable
+fun TatatatakBox(modifier: Modifier = Modifier) {
+    Box(modifier = Modifier.fillMaxHeight(), contentAlignment = Alignment.Center) {
+        Text(text = "Box 1")
+        Text(text = "Column 1")
+        Text(text = "Box 2")
+        Text(text = "Column 2")
+    }
+}
