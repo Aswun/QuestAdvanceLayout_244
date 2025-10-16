@@ -24,7 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun TatatatakColumn(modifier: Modifier = Modifier) {
+fun TataletakColumn(modifier: Modifier = Modifier) {
     Column(modifier = Modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
@@ -34,7 +34,7 @@ fun TatatatakColumn(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatatakRow(modifier: Modifier = Modifier) {
+fun TataletakRow(modifier: Modifier = Modifier) {
     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
@@ -44,7 +44,7 @@ fun TatatatakRow(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatatakBox(modifier: Modifier = Modifier) {
+fun TataletakBox(modifier: Modifier = Modifier) {
     Box(modifier = Modifier.fillMaxHeight(), contentAlignment = Alignment.Center) {
         Text(text = "Box 1")
         Text(text = "Column 1")
@@ -54,7 +54,7 @@ fun TatatatakBox(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatatakColumnRow(modifier: Modifier = Modifier) {
+fun TataletakColumnRow(modifier: Modifier = Modifier) {
     Column() {
         //Kolom1
         Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
@@ -72,7 +72,7 @@ fun TatatatakColumnRow(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatatakRowColumn(modifier: Modifier = Modifier) {
+fun TataletakRowColumn(modifier: Modifier = Modifier) {
     Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
         //Baris1
         Column() {
@@ -90,7 +90,7 @@ fun TatatatakRowColumn(modifier: Modifier = Modifier) {
 }
 
 @Composable
-fun TatatetakBoxColumnRow(modifier: Modifier = Modifier) {
+fun TataletakBoxColumnRow(modifier: Modifier = Modifier) {
         val gambar = painterResource(id = R.drawable.notasibalok)
 
     Column {

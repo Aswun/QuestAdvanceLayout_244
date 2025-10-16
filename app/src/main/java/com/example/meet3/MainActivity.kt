@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
             Meet3Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     // Panggil composable layout utama dengan padding dari Scaffold
-                    TatatatakBoxColumnRow(
+                    TataletakBoxColumnRow(
                         modifier = Modifier.padding(paddingValues = innerPadding)
                     )
                 }
