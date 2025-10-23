@@ -26,7 +26,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 
 @Composable
-fun ActivitasPertama() {
+fun ActivitasPertama(modifier: Modifier) {
     Column(modifier = Modifier.padding(top = 100.dp).fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally) {
         Text(
