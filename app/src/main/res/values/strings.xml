@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">meet3</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Aswin Lutfian Prasetyo</string>
+    <string name="alamat">jl.rajawali, </string>
+    <string name="copy">copyright</string>
 </resources>
