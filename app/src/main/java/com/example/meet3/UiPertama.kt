@@ -55,14 +55,14 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(width = 30.dp))
                 Column() {
                     Text(
-                        text = stringResource(id = R.string.nama),
+                        text = stringResource(id = R.string.nama1),
                         fontSize = 30.sp,
                         fontFamily = FontFamily.Cursive,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = stringResource(id = R.string.alamat),
+                        text = stringResource(id = R.string.alamat1),
                         fontSize = 20.sp,
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
@@ -90,18 +90,18 @@ fun ActivitasPertama(modifier: Modifier) {
                 Spacer(modifier = Modifier.width(30.dp))
                 Column {
                     Text(
-                        text = "Isi Nama",
+                        text = stringResource(id = R.string.nama2),
                         fontSize = 25.sp,
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
                     Text(
-                        text = "Isi Alamat",
+                        text = stringResource(id = R.string.alamat2),
                         fontSize = 18.sp,
                         color = Color.Cyan
                     )
                     Text(
-                        text = "Isi No Handphone",
+                        text = stringResource(id = R.string.nohp2),
                         fontSize = 18.sp,
                         color = Color.White
                     )
@@ -126,18 +126,18 @@ fun ActivitasPertama(modifier: Modifier) {
             Spacer(modifier = Modifier.width(30.dp))
             Column {
                 Text(
-                    text = "Isi Nama",
+                    text = stringResource(id = R.string.nama3),
                     fontSize = 25.sp,
                     color = Color.White,
                     modifier = Modifier.padding(top = 15.dp)
                 )
                 Text(
-                    text = "Isi Alamat",
+                    text = stringResource(id = R.string.alamat3),
                     fontSize = 18.sp,
                     color = Color.LightGray
                 )
                 Text(
-                    text = "Isi No Handphone",
+                    text = stringResource(id = R.string.nohp3),
                     fontSize = 18.sp,
                     color = Color.White
                 )
