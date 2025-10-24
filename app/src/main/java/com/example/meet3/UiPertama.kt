@@ -99,7 +99,14 @@ fun ActivitasPertama(modifier: Modifier) {
                         fontSize = 18.sp,
                         color = Color.Cyan
                     )
+                    Text(
+                        text = "Isi No Handphone",
+                        fontSize = 18.sp,
+                        color = Color.White
+                    )
+                }
             }
+        }
         Box(modifier = Modifier.fillMaxSize()) {
             Text(text = stringResource(id = R.string.copy),
                 modifier = Modifier
