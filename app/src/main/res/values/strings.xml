@@ -2,7 +2,19 @@
     <string name="app_name">meet3</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
-    <string name="nama">Aswin Lutfian Prasetyo</string>
-    <string name="alamat">jl.rajawali, </string>
     <string name="copy">copyright</string>
+
+    <!-- Data Card 1 -->
+    <string name="nama1">Bambang Sumantri</string>
+    <string name="alamat1">Turi, Sleman</string>
+
+    <!-- Data Card 2 -->
+    <string name="nama2">Isi Nama</string>
+    <string name="alamat2">Isi Alamat</string>
+    <string name="nohp2">Isi No Handphone</string>
+
+    <!-- Data Card 3 -->
+    <string name="nama3">Isi Nama</string>
+    <string name="alamat3">Isi Alamat</string>
+    <string name="nohp3">Isi No Handphone</string>
 </resources>
