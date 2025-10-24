@@ -94,6 +94,11 @@ fun ActivitasPertama(modifier: Modifier) {
                         color = Color.White,
                         modifier = Modifier.padding(top = 15.dp)
                     )
+                    Text(
+                        text = "Isi Alamat",
+                        fontSize = 18.sp,
+                        color = Color.Cyan
+                    )
             }
         Box(modifier = Modifier.fillMaxSize()) {
             Text(text = stringResource(id = R.string.copy),
