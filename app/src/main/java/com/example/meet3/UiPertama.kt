@@ -136,6 +136,11 @@ fun ActivitasPertama(modifier: Modifier) {
                     fontSize = 18.sp,
                     color = Color.LightGray
                 )
+                Text(
+                    text = "Isi No Handphone",
+                    fontSize = 18.sp,
+                    color = Color.White
+                )
             }
         }
 
