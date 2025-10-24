@@ -71,6 +71,7 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+
         Card(
             modifier = Modifier
                 .fillMaxWidth()
@@ -107,6 +108,9 @@ fun ActivitasPertama(modifier: Modifier) {
                 }
             }
         }
+
+        Card()
+
         Box(modifier = Modifier.fillMaxSize()) {
             Text(text = stringResource(id = R.string.copy),
                 modifier = Modifier
