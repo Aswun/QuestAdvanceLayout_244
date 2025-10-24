@@ -5,16 +5,16 @@
     <string name="copy">copyright</string>
 
     <!-- Data Card 1 -->
-    <string name="nama1">Bambang Sumantri</string>
-    <string name="alamat1">Turi, Sleman</string>
+    <string name="nama1">Aswin Lutfian Prasetyo</string>
+    <string name="alamat1">Rajawali, Bantul</string>
 
     <!-- Data Card 2 -->
-    <string name="nama2">Isi Nama</string>
-    <string name="alamat2">Isi Alamat</string>
-    <string name="nohp2">Isi No Handphone</string>
+    <string name="nama2">Ardhi Brim Prasetyo</string>
+    <string name="alamat2">G. Obos, Menteng</string>
+    <string name="nohp2">0822-6069-2390</string>
 
     <!-- Data Card 3 -->
-    <string name="nama3">Isi Nama</string>
-    <string name="alamat3">Isi Alamat</string>
-    <string name="nohp3">Isi No Handphone</string>
+    <string name="nama3">Oky Saputra</string>
+    <string name="alamat3">Wonosalam, Demak</string>
+    <string name="nohp3">0866-6499-0909</string>
 </resources>
