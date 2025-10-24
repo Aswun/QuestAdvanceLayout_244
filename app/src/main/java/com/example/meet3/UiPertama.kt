@@ -114,7 +114,16 @@ fun ActivitasPertama(modifier: Modifier) {
             .fillMaxWidth()
             .padding(all = 12.dp),
             colors = CardDefaults.cardColors(containerColor = Color.Green)
-        )
+        ) {
+            val gambar = painterResource(id = R.drawable.logo_umy)
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(100.dp)
+                    .padding(5.dp)
+            )
+        }
 
         Box(modifier = Modifier.fillMaxSize()) {
             Text(text = stringResource(id = R.string.copy),
