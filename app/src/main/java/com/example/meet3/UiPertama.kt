@@ -124,7 +124,14 @@ fun ActivitasPertama(modifier: Modifier) {
                     .padding(5.dp)
             )
             Spacer(modifier = Modifier.width(30.dp))
-
+            Column {
+                Text(
+                    text = "Isi Nama",
+                    fontSize = 25.sp,
+                    color = Color.White,
+                    modifier = Modifier.padding(top = 15.dp)
+                )
+            }
         }
 
         Box(modifier = Modifier.fillMaxSize()) {
